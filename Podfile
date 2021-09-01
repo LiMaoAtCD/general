@@ -8,9 +8,10 @@ target 'GeneralDemo' do
   # Pods for GeneralDemo
     pod 'SnapKit'
     pod 'LookinServer', :configurations => ['Debug']
-pod 'RxSwift'
-  pod 'RxCocoa'
-  pod 'Then'
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'Then'
     pod 'Kingfisher'
-
+    pod "PromiseKit"
+    pod 'Moya/RxSwift'
 end
