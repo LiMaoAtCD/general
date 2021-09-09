@@ -15,4 +15,5 @@ target 'GeneralDemo' do
     pod "PromiseKit"
     pod 'Moya/RxSwift'
     pod 'IGListKit', '~> 3.0'
+    pod 'UITextView+Placeholder'
 end

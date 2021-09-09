@@ -16,6 +16,7 @@
 		31611A1626DF12D90007DDA9 /* PromiseKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31611A1526DF12D90007DDA9 /* PromiseKitViewController.swift */; };
 		31611A1926DF23770007DDA9 /* JokeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31611A1826DF23770007DDA9 /* JokeService.swift */; };
 		9C501758E6F18649FB01FBD6 /* Pods_GeneralDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57160BCB61480D7D1AA7CCE7 /* Pods_GeneralDemo.framework */; };
+		DAB5472A26E46C6C00350198 /* UITextViewPlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5472926E46C6C00350198 /* UITextViewPlaceholderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		49B7FFEDF40F2E7608DEAAAD /* Pods-GeneralDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeneralDemo.release.xcconfig"; path = "Target Support Files/Pods-GeneralDemo/Pods-GeneralDemo.release.xcconfig"; sourceTree = "<group>"; };
 		57160BCB61480D7D1AA7CCE7 /* Pods_GeneralDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeneralDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C751733019D7533758611F /* Pods-GeneralDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeneralDemo.debug.xcconfig"; path = "Target Support Files/Pods-GeneralDemo/Pods-GeneralDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DAB5472926E46C6C00350198 /* UITextViewPlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewPlaceholderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		31611A0026DF10F80007DDA9 /* GeneralDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DAB5472826E46C5300350198 /* UITextviewPlaceHolder */,
 				31611A1726DF235E0007DDA9 /* PromiseKit */,
 				31611A0126DF10F80007DDA9 /* AppDelegate.swift */,
 				31611A0326DF10F80007DDA9 /* SceneDelegate.swift */,
@@ -103,6 +106,14 @@
 				57160BCB61480D7D1AA7CCE7 /* Pods_GeneralDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAB5472826E46C5300350198 /* UITextviewPlaceHolder */ = {
+			isa = PBXGroup;
+			children = (
+				DAB5472926E46C6C00350198 /* UITextViewPlaceholderViewController.swift */,
+			);
+			path = UITextviewPlaceHolder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB5472A26E46C6C00350198 /* UITextViewPlaceholderViewController.swift in Sources */,
 				31611A0626DF10F80007DDA9 /* ViewController.swift in Sources */,
 				31611A0226DF10F80007DDA9 /* AppDelegate.swift in Sources */,
 				31611A0426DF10F80007DDA9 /* SceneDelegate.swift in Sources */,

@@ -11,7 +11,7 @@ import SnapKit
 class ViewController: UIViewController {
 
     private let tableview = UITableView.init(frame: .zero, style: .plain)
-    private var subjects = ["promiseKit"]
+    private var subjects = ["PromiseKit", "UITextViewPlaceholder"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -40,7 +40,13 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        navigationController?.pushViewController(PromiseKitViewController(), animated: true)
+        if subjects[indexPath.row] == "PromiseKit" {
+            navigationController?.pushViewController(PromiseKitViewController(), animated: true)
+        } else if subjects[indexPath.row] == "UITextViewPlaceholder" {
+            navigationController?.pushViewController(UITextViewPlaceholderViewController(), animated: true)
+
+        }
+
     }
 }
 
