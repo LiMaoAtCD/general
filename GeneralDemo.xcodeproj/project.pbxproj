@@ -17,6 +17,7 @@
 		31611A1926DF23770007DDA9 /* JokeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31611A1826DF23770007DDA9 /* JokeService.swift */; };
 		9C501758E6F18649FB01FBD6 /* Pods_GeneralDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57160BCB61480D7D1AA7CCE7 /* Pods_GeneralDemo.framework */; };
 		DAB5472A26E46C6C00350198 /* UITextViewPlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5472926E46C6C00350198 /* UITextViewPlaceholderViewController.swift */; };
+		DABA6DD826EE396A0046BF44 /* NSStringDrawingOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA6DD726EE396A0046BF44 /* NSStringDrawingOptionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		57160BCB61480D7D1AA7CCE7 /* Pods_GeneralDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeneralDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C751733019D7533758611F /* Pods-GeneralDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeneralDemo.debug.xcconfig"; path = "Target Support Files/Pods-GeneralDemo/Pods-GeneralDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DAB5472926E46C6C00350198 /* UITextViewPlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewPlaceholderViewController.swift; sourceTree = "<group>"; };
+		DABA6DD726EE396A0046BF44 /* NSStringDrawingOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSStringDrawingOptionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				31611A0A26DF10FA0007DDA9 /* Assets.xcassets */,
 				31611A0C26DF10FA0007DDA9 /* LaunchScreen.storyboard */,
 				31611A0F26DF10FA0007DDA9 /* Info.plist */,
+				DABA6DD726EE396A0046BF44 /* NSStringDrawingOptionsViewController.swift */,
 			);
 			path = GeneralDemo;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				31611A0226DF10F80007DDA9 /* AppDelegate.swift in Sources */,
 				31611A0426DF10F80007DDA9 /* SceneDelegate.swift in Sources */,
 				31611A1926DF23770007DDA9 /* JokeService.swift in Sources */,
+				DABA6DD826EE396A0046BF44 /* NSStringDrawingOptionsViewController.swift in Sources */,
 				31611A1626DF12D90007DDA9 /* PromiseKitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

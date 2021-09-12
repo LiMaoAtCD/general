@@ -25,7 +25,7 @@ class UITextViewPlaceholderViewController: UIViewController {
             make.height.equalTo(300)
         }
         textView.placeholder = "这个是placeholder"
-        
+        print(textView.subviews)
     }
     
 
