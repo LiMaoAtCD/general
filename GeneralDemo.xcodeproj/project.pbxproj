@@ -15,6 +15,7 @@
 		31611A0E26DF10FA0007DDA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31611A0C26DF10FA0007DDA9 /* LaunchScreen.storyboard */; };
 		31611A1626DF12D90007DDA9 /* PromiseKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31611A1526DF12D90007DDA9 /* PromiseKitViewController.swift */; };
 		31611A1926DF23770007DDA9 /* JokeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31611A1826DF23770007DDA9 /* JokeService.swift */; };
+		31FA835C26EA099A009541EE /* IGListDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA835B26EA099A009541EE /* IGListDemoViewController.swift */; };
 		9C501758E6F18649FB01FBD6 /* Pods_GeneralDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57160BCB61480D7D1AA7CCE7 /* Pods_GeneralDemo.framework */; };
 		DAB5472A26E46C6C00350198 /* UITextViewPlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB5472926E46C6C00350198 /* UITextViewPlaceholderViewController.swift */; };
 		DABA6DD826EE396A0046BF44 /* NSStringDrawingOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABA6DD726EE396A0046BF44 /* NSStringDrawingOptionsViewController.swift */; };
@@ -31,6 +32,7 @@
 		31611A0F26DF10FA0007DDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31611A1526DF12D90007DDA9 /* PromiseKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromiseKitViewController.swift; sourceTree = "<group>"; };
 		31611A1826DF23770007DDA9 /* JokeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeService.swift; sourceTree = "<group>"; };
+		31FA835B26EA099A009541EE /* IGListDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListDemoViewController.swift; sourceTree = "<group>"; };
 		49B7FFEDF40F2E7608DEAAAD /* Pods-GeneralDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeneralDemo.release.xcconfig"; path = "Target Support Files/Pods-GeneralDemo/Pods-GeneralDemo.release.xcconfig"; sourceTree = "<group>"; };
 		57160BCB61480D7D1AA7CCE7 /* Pods_GeneralDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeneralDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C751733019D7533758611F /* Pods-GeneralDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeneralDemo.debug.xcconfig"; path = "Target Support Files/Pods-GeneralDemo/Pods-GeneralDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		31611A0026DF10F80007DDA9 /* GeneralDemo */ = {
 			isa = PBXGroup;
 			children = (
+				31FA835A26EA0988009541EE /* IGListKit */,
 				DAB5472826E46C5300350198 /* UITextviewPlaceHolder */,
 				31611A1726DF235E0007DDA9 /* PromiseKit */,
 				31611A0126DF10F80007DDA9 /* AppDelegate.swift */,
@@ -101,6 +104,14 @@
 				31611A1826DF23770007DDA9 /* JokeService.swift */,
 			);
 			path = PromiseKit;
+			sourceTree = "<group>";
+		};
+		31FA835A26EA0988009541EE /* IGListKit */ = {
+			isa = PBXGroup;
+			children = (
+				31FA835B26EA099A009541EE /* IGListDemoViewController.swift */,
+			);
+			path = IGListKit;
 			sourceTree = "<group>";
 		};
 		81F5BAF5CFE6048751A6A4D7 /* Frameworks */ = {
@@ -233,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FA835C26EA099A009541EE /* IGListDemoViewController.swift in Sources */,
 				DAB5472A26E46C6C00350198 /* UITextViewPlaceholderViewController.swift in Sources */,
 				31611A0626DF10F80007DDA9 /* ViewController.swift in Sources */,
 				31611A0226DF10F80007DDA9 /* AppDelegate.swift in Sources */,

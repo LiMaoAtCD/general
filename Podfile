@@ -14,5 +14,7 @@ target 'GeneralDemo' do
     pod 'Kingfisher'
     pod "PromiseKit"
     pod 'Moya/RxSwift'
+    pod 'IGListKit', '~> 3.0'
     pod 'UITextView+Placeholder'
+    pod 'Kingfisher'
 end
