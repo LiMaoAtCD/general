@@ -11,7 +11,7 @@ import SnapKit
 class ViewController: UIViewController {
 
     private let tableview = UITableView.init(frame: .zero, style: .plain)
-    private var subjects = ["PromiseKit", "UITextViewPlaceholder","IGListKitDemo"]
+    private var subjects = ["PromiseKit", "UITextViewPlaceholder","IGListKitDemo", "UILabel"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -46,6 +46,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             navigationController?.pushViewController(UITextViewPlaceholderViewController(), animated: true)
         } else if subjects[indexPath.row] == "IGListKitDemo" {
             navigationController?.pushViewController(IGListDemoViewController(), animated: true)
+        } else if subjects[indexPath.row] == "UILabel"{
+            navigationController?.pushViewController(NSStringDrawingOptionsViewController(), animated: true)
         }
 
     }
